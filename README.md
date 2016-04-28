@@ -1,0 +1,2 @@
+# SYTouchViewDemo
+SYTouchViewDemo是一个根据顶点坐标绘制出图形，并且根据触摸的坐标区分点击区域，从而触发不同事件的demo,触摸区域支持缩放
