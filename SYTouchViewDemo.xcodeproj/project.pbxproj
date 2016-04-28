@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42D32E31CD1F7BA00C820CF /* SYCoordinatesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D32E21CD1F7BA00C820CF /* SYCoordinatesModel.m */; };
+		A42D32E51CD2106A00C820CF /* touchAreaImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A42D32E41CD2106A00C820CF /* touchAreaImage.png */; };
+		A42D32EA1CD2253500C820CF /* mapTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = A42D32E91CD2253500C820CF /* mapTwo.json */; };
+		A4DE01C51CCA26740070C6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE01C41CCA26740070C6BA /* main.m */; };
+		A4DE01C81CCA26740070C6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE01C71CCA26740070C6BA /* AppDelegate.m */; };
+		A4DE01CB1CCA26740070C6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE01CA1CCA26740070C6BA /* ViewController.m */; };
+		A4DE01CE1CCA26740070C6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DE01CC1CCA26740070C6BA /* Main.storyboard */; };
+		A4DE01D01CCA26740070C6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DE01CF1CCA26740070C6BA /* Assets.xcassets */; };
+		A4DE01D31CCA26750070C6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DE01D11CCA26750070C6BA /* LaunchScreen.storyboard */; };
+		A4DE01DE1CCA26750070C6BA /* SYTouchViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DE01DD1CCA26750070C6BA /* SYTouchViewDemoTests.m */; };
+		A4E17F031CCE05BC00CC371A /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E17F021CCE05BC00CC371A /* CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DE01DA1CCA26750070C6BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE01B81CCA26740070C6BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE01BF1CCA26740070C6BA;
+			remoteInfo = SYTouchViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42D32E11CD1F7BA00C820CF /* SYCoordinatesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCoordinatesModel.h; sourceTree = "<group>"; };
+		A42D32E21CD1F7BA00C820CF /* SYCoordinatesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCoordinatesModel.m; sourceTree = "<group>"; };
+		A42D32E41CD2106A00C820CF /* touchAreaImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touchAreaImage.png; sourceTree = "<group>"; };
+		A42D32E91CD2253500C820CF /* mapTwo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapTwo.json; sourceTree = "<group>"; };
+		A4DE01C01CCA26740070C6BA /* SYTouchViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYTouchViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE01C41CCA26740070C6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4DE01C61CCA26740070C6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4DE01C71CCA26740070C6BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4DE01C91CCA26740070C6BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4DE01CA1CCA26740070C6BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4DE01CD1CCA26740070C6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4DE01CF1CCA26740070C6BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DE01D21CCA26750070C6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DE01D41CCA26750070C6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DE01D91CCA26750070C6BA /* SYTouchViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYTouchViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE01DD1CCA26750070C6BA /* SYTouchViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTouchViewDemoTests.m; sourceTree = "<group>"; };
+		A4DE01DF1CCA26750070C6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E17F011CCE05BC00CC371A /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		A4E17F021CCE05BC00CC371A /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DE01BD1CCA26740070C6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE01D61CCA26750070C6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DE01B71CCA26740070C6BA = {
+			isa = PBXGroup;
+			children = (
+				A4DE01C21CCA26740070C6BA /* SYTouchViewDemo */,
+				A4DE01DC1CCA26750070C6BA /* SYTouchViewDemoTests */,
+				A4DE01C11CCA26740070C6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DE01C11CCA26740070C6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE01C01CCA26740070C6BA /* SYTouchViewDemo.app */,
+				A4DE01D91CCA26750070C6BA /* SYTouchViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DE01C21CCA26740070C6BA /* SYTouchViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A42D32E41CD2106A00C820CF /* touchAreaImage.png */,
+				A42D32E91CD2253500C820CF /* mapTwo.json */,
+				A4DE01C61CCA26740070C6BA /* AppDelegate.h */,
+				A4DE01C71CCA26740070C6BA /* AppDelegate.m */,
+				A4DE01C91CCA26740070C6BA /* ViewController.h */,
+				A4DE01CA1CCA26740070C6BA /* ViewController.m */,
+				A42D32E11CD1F7BA00C820CF /* SYCoordinatesModel.h */,
+				A42D32E21CD1F7BA00C820CF /* SYCoordinatesModel.m */,
+				A4E17F011CCE05BC00CC371A /* CustomView.h */,
+				A4E17F021CCE05BC00CC371A /* CustomView.m */,
+				A4DE01CC1CCA26740070C6BA /* Main.storyboard */,
+				A4DE01CF1CCA26740070C6BA /* Assets.xcassets */,
+				A4DE01D11CCA26750070C6BA /* LaunchScreen.storyboard */,
+				A4DE01D41CCA26750070C6BA /* Info.plist */,
+				A4DE01C31CCA26740070C6BA /* Supporting Files */,
+			);
+			path = SYTouchViewDemo;
+			sourceTree = "<group>";
+		};
+		A4DE01C31CCA26740070C6BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE01C41CCA26740070C6BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4DE01DC1CCA26750070C6BA /* SYTouchViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE01DD1CCA26750070C6BA /* SYTouchViewDemoTests.m */,
+				A4DE01DF1CCA26750070C6BA /* Info.plist */,
+			);
+			path = SYTouchViewDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DE01BF1CCA26740070C6BA /* SYTouchViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE01E21CCA26750070C6BA /* Build configuration list for PBXNativeTarget "SYTouchViewDemo" */;
+			buildPhases = (
+				A4DE01BC1CCA26740070C6BA /* Sources */,
+				A4DE01BD1CCA26740070C6BA /* Frameworks */,
+				A4DE01BE1CCA26740070C6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYTouchViewDemo;
+			productName = SYTouchViewDemo;
+			productReference = A4DE01C01CCA26740070C6BA /* SYTouchViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DE01D81CCA26750070C6BA /* SYTouchViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE01E51CCA26750070C6BA /* Build configuration list for PBXNativeTarget "SYTouchViewDemoTests" */;
+			buildPhases = (
+				A4DE01D51CCA26750070C6BA /* Sources */,
+				A4DE01D61CCA26750070C6BA /* Frameworks */,
+				A4DE01D71CCA26750070C6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE01DB1CCA26750070C6BA /* PBXTargetDependency */,
+			);
+			name = SYTouchViewDemoTests;
+			productName = SYTouchViewDemoTests;
+			productReference = A4DE01D91CCA26750070C6BA /* SYTouchViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DE01B81CCA26740070C6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sunyu;
+				TargetAttributes = {
+					A4DE01BF1CCA26740070C6BA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A4DE01D81CCA26750070C6BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A4DE01BF1CCA26740070C6BA;
+					};
+				};
+			};
+			buildConfigurationList = A4DE01BB1CCA26740070C6BA /* Build configuration list for PBXProject "SYTouchViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DE01B71CCA26740070C6BA;
+			productRefGroup = A4DE01C11CCA26740070C6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DE01BF1CCA26740070C6BA /* SYTouchViewDemo */,
+				A4DE01D81CCA26750070C6BA /* SYTouchViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DE01BE1CCA26740070C6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42D32E51CD2106A00C820CF /* touchAreaImage.png in Resources */,
+				A4DE01D31CCA26750070C6BA /* LaunchScreen.storyboard in Resources */,
+				A42D32EA1CD2253500C820CF /* mapTwo.json in Resources */,
+				A4DE01D01CCA26740070C6BA /* Assets.xcassets in Resources */,
+				A4DE01CE1CCA26740070C6BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE01D71CCA26750070C6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DE01BC1CCA26740070C6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE01CB1CCA26740070C6BA /* ViewController.m in Sources */,
+				A4E17F031CCE05BC00CC371A /* CustomView.m in Sources */,
+				A42D32E31CD1F7BA00C820CF /* SYCoordinatesModel.m in Sources */,
+				A4DE01C81CCA26740070C6BA /* AppDelegate.m in Sources */,
+				A4DE01C51CCA26740070C6BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE01D51CCA26750070C6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE01DE1CCA26750070C6BA /* SYTouchViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DE01DB1CCA26750070C6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE01BF1CCA26740070C6BA /* SYTouchViewDemo */;
+			targetProxy = A4DE01DA1CCA26750070C6BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4DE01CC1CCA26740070C6BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DE01CD1CCA26740070C6BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4DE01D11CCA26750070C6BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DE01D21CCA26750070C6BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DE01E01CCA26750070C6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DE01E11CCA26750070C6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DE01E31CCA26750070C6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = SYTouchViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.SYTouchViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4DE01E41CCA26750070C6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = SYTouchViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.SYTouchViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4DE01E61CCA26750070C6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYTouchViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.SYTouchViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTouchViewDemo.app/SYTouchViewDemo";
+			};
+			name = Debug;
+		};
+		A4DE01E71CCA26750070C6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYTouchViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csc.SYTouchViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTouchViewDemo.app/SYTouchViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DE01BB1CCA26740070C6BA /* Build configuration list for PBXProject "SYTouchViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE01E01CCA26750070C6BA /* Debug */,
+				A4DE01E11CCA26750070C6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE01E21CCA26750070C6BA /* Build configuration list for PBXNativeTarget "SYTouchViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE01E31CCA26750070C6BA /* Debug */,
+				A4DE01E41CCA26750070C6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE01E51CCA26750070C6BA /* Build configuration list for PBXNativeTarget "SYTouchViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE01E61CCA26750070C6BA /* Debug */,
+				A4DE01E71CCA26750070C6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DE01B81CCA26740070C6BA /* Project object */;
+}
