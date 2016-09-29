@@ -123,7 +123,7 @@
 }
 
 
-- (BOOL) pointInRegion: (CGPoint) pt region: (SYCoordinatesModel *) rObj
+- (BOOL)pointInRegion:(CGPoint)pt region:(SYCoordinatesModel *)rObj
 {
     int nCross = 0;
     

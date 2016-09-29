@@ -27,6 +27,6 @@
 @property (nonatomic, copy) void (^drawCompleteBlock)(CustomView *customView);
 
 //判断点击位置
-- (BOOL)pointInRegion: (CGPoint) pt region: (SYCoordinatesModel *) rObj;
+- (BOOL)pointInRegion:(CGPoint)pt region:(SYCoordinatesModel *)rObj;
 
 @end
